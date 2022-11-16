@@ -1,0 +1,112 @@
+body{
+    background-color: lightgray;
+}
+
+.top{
+    display:flex;
+}
+.icon {
+    display: flex;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.icon > i {
+    margin: auto;
+}
+
+.insta{
+    height:32px;
+    width:32px;
+    background-color: rgb(36, 36, 54);
+    color: white;
+    margin-left: 1750px;
+}
+
+.facebook{
+    height:32px;
+    width:32px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(36, 36, 54);
+}
+
+.linkedin{
+    height:32px;
+    width:32px;
+    background-color: rgb(36, 36, 54);
+    color: rgb(253, 253, 253);
+}
+
+.title{
+    position: absolute;
+    left: 28%;
+    top: 18%;
+}
+.in,.interior,.trust{
+   z-index: 1;
+   display: auto;
+   font-family: 'Poppins', sans-serif;
+   font-size:180px;
+   font-weight:600;
+   width: 1000px;
+   line-height: 170px;
+}
+
+.in{
+    display: inline-block;
+    width: 150px;
+    margin-right: 70px
+}
+
+.salon{
+    width: 360px;
+    height: 140px;
+    border-radius: 30px;
+    display: inline-block;
+    border-color: rgb(36, 36, 54);
+    border-style:solid;
+    border-width: 6px;
+    -webkit-transition: all 1s ease;
+}
+
+.salon:hover{
+    -webkit-transform:scale(1.25);
+}
+
+.project{
+    font-size:18px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    display: inline-block;
+    margin: auto;
+    margin-left:250px;
+    position: absolute;
+    top: 40px;
+    left: 500px;
+}
+
+.project:hover{
+    text-decoration:underline;
+    text-decoration-style: solid;
+}
+
+.back{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size:230px;
+    font-weight:600;
+    width: 100%;
+    color: white;
+    top: 430px;
+    left: 340px;
+    z-index: -1;
+}
+
+.salon2{
+    position:absolute;
+    z-index: -2;
+    width: 100%;
+    top: 800px;
+}
