@@ -1,5 +1,6 @@
 body{
     background-color: lightgray;
+    width:0px;
 }
 
 .nav-bar{
@@ -7,22 +8,27 @@ display: flex;
 }
 
 .logo{
-    rotate: -45deg;
-    line-height: 90%;
+    margin-left: 15px;
+    margin-top: 5px;
     font-family: 'Poppins', sans-serif;
-    margin-top: 30px;
-    margin-left: 30px;
-    font-size: 20px;
+    font-size: 100%;
+    line-height: 10%;
+    rotate: -45deg;
 }
+
 .reseau{
     display:flex;
+    flex: 1;
 }
+
 .icon {
     display: flex;
     border-radius: 20px;
     text-align: center;
     margin-left: 15px;
-    margin-top: 10px;
+    margin-top: 1%;
+    height:32px;
+    width:32px;
 }
 
 .icon > i {
@@ -30,24 +36,18 @@ display: flex;
 }
 
 .insta{
-    height:32px;
-    width:32px;
-    background-color: rgb(36, 36, 54);
+    background-color: rgb(49, 49, 82);
     color: white;
     margin-left: 1620px;
 }
 
 .facebook{
-    height:32px;
-    width:32px;
     background-color: rgb(255, 255, 255);
-    color: rgb(36, 36, 54);
+    color: rgb(49, 49, 82);
 }
 
 .linkedin{
-    height:32px;
-    width:32px;
-    background-color: rgb(36, 36, 54);
+    background-color: rgb(49, 49, 82);
     color: rgb(253, 253, 253);
 }
 
@@ -55,21 +55,22 @@ display: flex;
     position: absolute;
     left: 28%;
     top: 18%;
+    width: 50%;
 }
 .in,.interior,.trust{
    z-index: 1;
    display: auto;
    font-family: 'Poppins', sans-serif;
-   font-size:180px;
+   font-size:1150%;
    font-weight:600;
-   width: 1000px;
-   line-height: 170px;
+   width: 100%;
+   line-height: 92%;
 }
 
 .in{
     display: inline-block;
-    width: 150px;
-    margin-right: 70px
+    width: 17%;
+    margin-right: 70px;
 }
 
 .salon{
@@ -91,8 +92,6 @@ display: flex;
     font-size:18px;
     font-family: 'Roboto Mono', monospace;
     font-weight: bold;
-    display: inline-block;
-    margin: auto;
     margin-left:250px;
     position: absolute;
     top: 40px;
@@ -102,7 +101,6 @@ display: flex;
 .project:hover{
     text-decoration:underline;
     text-decoration-thickness: 3px;
-    
 }
 
 .back{
@@ -110,7 +108,6 @@ display: flex;
     font-family: 'Poppins', sans-serif;
     font-size:230px;
     font-weight:600;
-    width: 100%;
     color: white;
     top: 430px;
     left: 340px;
@@ -119,12 +116,17 @@ display: flex;
 
 .salon2{
     position:absolute;
-    z-index: -2;
     width: 100%;
     top: 800px;
 }
 
 .fleche-bas{
-    position: relative;
-    top: 100px;
+    position:absolute;
+    top: 85%;
+    left: 68%;
+    color: rgb(30, 31, 37);
+}
+
+.fleche-bas:active{
+    opacity: 0;
 }
